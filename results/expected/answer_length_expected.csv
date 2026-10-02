@@ -1,0 +1,8 @@
+row_key,column,expected,value_type
+answer_length_summary,n,138,int
+answer_length_summary,original_mean_words,48.4,float
+answer_length_summary,original_median_words,51,int
+answer_length_summary,core_mean_words,15.6,float
+answer_length_summary,core_median_words,12,int
+answer_length_summary,median_word_percent_removed,66.0,float
+answer_length_summary,overall_word_percent_removed,67.7,float

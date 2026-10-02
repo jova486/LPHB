@@ -1,0 +1,23 @@
+# Core: reproduces the paper's tables and figures from the release master
+# CSV (notebook Sections A and C; everything under src/ and scripts/).
+# No API keys, no GPU, no label regeneration.
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+scipy>=1.10
+
+# Optional: notebook Section B label regeneration only. Not required to
+# reproduce the paper; install only the packages needed for the specific
+# sub-flags you enable.
+# rouge-score            # B2 (ROUGE-L)
+# bert-score             # B2 (BERTScore)
+# torch                  # B3, B6, B9 (NLI, local judges, BARTScore)
+# transformers           # B3, B6, B9
+# nltk                   # B9 (METEOR)
+# openai                 # B4, B7, B8, B10, B10b
+# anthropic              # B5, B7
+# huggingface_hub        # B6, B7
+# pydantic               # B10 (core extraction)
+# tqdm                   # most Section B cells

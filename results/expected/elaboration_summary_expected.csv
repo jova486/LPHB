@@ -1,0 +1,17 @@
+row_key,column,expected,value_type
+elaboration_summary,n_extractions,140,int
+elaboration_summary,n_excluded,2,int
+elaboration_summary,n_paired,138,int
+elaboration_summary,paired_pct,98.6,float
+elaboration_summary,original_fp,73,int
+elaboration_summary,core_fp,32,int
+elaboration_summary,original_fpr_pct,52.9,float
+elaboration_summary,core_fpr_pct,23.2,float
+elaboration_summary,absolute_reduction_pct,29.7,float
+elaboration_summary,ci_low_pct,21.0,float
+elaboration_summary,ci_high_pct,38.4,float
+elaboration_summary,relative_reduction_pct,56.2,float
+elaboration_summary,n_fp_to_tn,45,int
+elaboration_summary,n_tn_to_fp,4,int
+elaboration_summary,n_fp_stays_fp,28,int
+elaboration_summary,n_tn_stays_tn,61,int

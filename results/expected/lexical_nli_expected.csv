@@ -1,0 +1,145 @@
+row_key,column,expected,value_type
+ROUGE-L (oracle-$\tau$)|llama3-8b,kappa,0.403,float
+ROUGE-L (oracle-$\tau$)|llama3-8b,bias,-0.183,float
+ROUGE-L (oracle-$\tau$)|llama3-8b,fp,15,int
+ROUGE-L (oracle-$\tau$)|llama3-8b,fn,70,int
+ROUGE-L (oracle-$\tau$)|llama3-8b,err,85,int
+ROUGE-L (oracle-$\tau$)|llama3-8b,fp_pct,17.6,float
+ROUGE-L (oracle-$\tau$)|llama3-8b,n_valid,300,int
+ROUGE-L (oracle-$\tau$)|llama3-8b,n_total,300,int
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,kappa,0.483,float
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,bias,-0.057,float
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,fp,27,int
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,fn,44,int
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,err,71,int
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,fp_pct,38.0,float
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,n_valid,300,int
+ROUGE-L (oracle-$\tau$)|gemma-2-9b,n_total,300,int
+ROUGE-L (oracle-$\tau$)|mistral-7b,kappa,0.412,float
+ROUGE-L (oracle-$\tau$)|mistral-7b,bias,-0.257,float
+ROUGE-L (oracle-$\tau$)|mistral-7b,fp,6,int
+ROUGE-L (oracle-$\tau$)|mistral-7b,fn,83,int
+ROUGE-L (oracle-$\tau$)|mistral-7b,err,89,int
+ROUGE-L (oracle-$\tau$)|mistral-7b,fp_pct,6.7,float
+ROUGE-L (oracle-$\tau$)|mistral-7b,n_valid,300,int
+ROUGE-L (oracle-$\tau$)|mistral-7b,n_total,300,int
+ROUGE-L (CV-$\tau$)|llama3-8b,kappa,0.353,float
+ROUGE-L (CV-$\tau$)|llama3-8b,bias,-0.143,float
+ROUGE-L (CV-$\tau$)|llama3-8b,fp,25,int
+ROUGE-L (CV-$\tau$)|llama3-8b,fn,68,int
+ROUGE-L (CV-$\tau$)|llama3-8b,err,93,int
+ROUGE-L (CV-$\tau$)|llama3-8b,fp_pct,26.9,float
+ROUGE-L (CV-$\tau$)|llama3-8b,n_valid,300,int
+ROUGE-L (CV-$\tau$)|llama3-8b,n_total,300,int
+ROUGE-L (CV-$\tau$)|gemma-2-9b,kappa,0.473,float
+ROUGE-L (CV-$\tau$)|gemma-2-9b,bias,-0.067,float
+ROUGE-L (CV-$\tau$)|gemma-2-9b,fp,26,int
+ROUGE-L (CV-$\tau$)|gemma-2-9b,fn,46,int
+ROUGE-L (CV-$\tau$)|gemma-2-9b,err,72,int
+ROUGE-L (CV-$\tau$)|gemma-2-9b,fp_pct,36.1,float
+ROUGE-L (CV-$\tau$)|gemma-2-9b,n_valid,300,int
+ROUGE-L (CV-$\tau$)|gemma-2-9b,n_total,300,int
+ROUGE-L (CV-$\tau$)|mistral-7b,kappa,0.385,float
+ROUGE-L (CV-$\tau$)|mistral-7b,bias,-0.23,float
+ROUGE-L (CV-$\tau$)|mistral-7b,fp,12,int
+ROUGE-L (CV-$\tau$)|mistral-7b,fn,81,int
+ROUGE-L (CV-$\tau$)|mistral-7b,err,93,int
+ROUGE-L (CV-$\tau$)|mistral-7b,fp_pct,12.9,float
+ROUGE-L (CV-$\tau$)|mistral-7b,n_valid,300,int
+ROUGE-L (CV-$\tau$)|mistral-7b,n_total,300,int
+BERTScore (oracle-$\tau$)|llama3-8b,kappa,0.387,float
+BERTScore (oracle-$\tau$)|llama3-8b,bias,-0.047,float
+BERTScore (oracle-$\tau$)|llama3-8b,fp,38,int
+BERTScore (oracle-$\tau$)|llama3-8b,fn,52,int
+BERTScore (oracle-$\tau$)|llama3-8b,err,90,int
+BERTScore (oracle-$\tau$)|llama3-8b,fp_pct,42.2,float
+BERTScore (oracle-$\tau$)|llama3-8b,n_valid,300,int
+BERTScore (oracle-$\tau$)|llama3-8b,n_total,300,int
+BERTScore (oracle-$\tau$)|gemma-2-9b,kappa,0.486,float
+BERTScore (oracle-$\tau$)|gemma-2-9b,bias,0.117,float
+BERTScore (oracle-$\tau$)|gemma-2-9b,fp,56,int
+BERTScore (oracle-$\tau$)|gemma-2-9b,fn,21,int
+BERTScore (oracle-$\tau$)|gemma-2-9b,err,77,int
+BERTScore (oracle-$\tau$)|gemma-2-9b,fp_pct,72.7,float
+BERTScore (oracle-$\tau$)|gemma-2-9b,n_valid,300,int
+BERTScore (oracle-$\tau$)|gemma-2-9b,n_total,300,int
+BERTScore (oracle-$\tau$)|mistral-7b,kappa,0.415,float
+BERTScore (oracle-$\tau$)|mistral-7b,bias,-0.067,float
+BERTScore (oracle-$\tau$)|mistral-7b,fp,34,int
+BERTScore (oracle-$\tau$)|mistral-7b,fn,54,int
+BERTScore (oracle-$\tau$)|mistral-7b,err,88,int
+BERTScore (oracle-$\tau$)|mistral-7b,fp_pct,38.6,float
+BERTScore (oracle-$\tau$)|mistral-7b,n_valid,300,int
+BERTScore (oracle-$\tau$)|mistral-7b,n_total,300,int
+BERTScore (CV-$\tau$)|llama3-8b,kappa,0.318,float
+BERTScore (CV-$\tau$)|llama3-8b,bias,-0.003,float
+BERTScore (CV-$\tau$)|llama3-8b,fp,50,int
+BERTScore (CV-$\tau$)|llama3-8b,fn,51,int
+BERTScore (CV-$\tau$)|llama3-8b,err,101,int
+BERTScore (CV-$\tau$)|llama3-8b,fp_pct,49.5,float
+BERTScore (CV-$\tau$)|llama3-8b,n_valid,300,int
+BERTScore (CV-$\tau$)|llama3-8b,n_total,300,int
+BERTScore (CV-$\tau$)|gemma-2-9b,kappa,0.486,float
+BERTScore (CV-$\tau$)|gemma-2-9b,bias,0.117,float
+BERTScore (CV-$\tau$)|gemma-2-9b,fp,56,int
+BERTScore (CV-$\tau$)|gemma-2-9b,fn,21,int
+BERTScore (CV-$\tau$)|gemma-2-9b,err,77,int
+BERTScore (CV-$\tau$)|gemma-2-9b,fp_pct,72.7,float
+BERTScore (CV-$\tau$)|gemma-2-9b,n_valid,300,int
+BERTScore (CV-$\tau$)|gemma-2-9b,n_total,300,int
+BERTScore (CV-$\tau$)|mistral-7b,kappa,0.394,float
+BERTScore (CV-$\tau$)|mistral-7b,bias,-0.037,float
+BERTScore (CV-$\tau$)|mistral-7b,fp,40,int
+BERTScore (CV-$\tau$)|mistral-7b,fn,51,int
+BERTScore (CV-$\tau$)|mistral-7b,err,91,int
+BERTScore (CV-$\tau$)|mistral-7b,fp_pct,44.0,float
+BERTScore (CV-$\tau$)|mistral-7b,n_valid,300,int
+BERTScore (CV-$\tau$)|mistral-7b,n_total,300,int
+NLI (T5-11B) strict|llama3-8b,kappa,0.053,float
+NLI (T5-11B) strict|llama3-8b,bias,0.513,float
+NLI (T5-11B) strict|llama3-8b,fp,155,int
+NLI (T5-11B) strict|llama3-8b,fn,1,int
+NLI (T5-11B) strict|llama3-8b,err,156,int
+NLI (T5-11B) strict|llama3-8b,fp_pct,99.4,float
+NLI (T5-11B) strict|llama3-8b,n_valid,300,int
+NLI (T5-11B) strict|llama3-8b,n_total,300,int
+NLI (T5-11B) strict|gemma-2-9b,kappa,0.025,float
+NLI (T5-11B) strict|gemma-2-9b,bias,0.573,float
+NLI (T5-11B) strict|gemma-2-9b,fp,175,int
+NLI (T5-11B) strict|gemma-2-9b,fn,3,int
+NLI (T5-11B) strict|gemma-2-9b,err,178,int
+NLI (T5-11B) strict|gemma-2-9b,fp_pct,98.3,float
+NLI (T5-11B) strict|gemma-2-9b,n_valid,300,int
+NLI (T5-11B) strict|gemma-2-9b,n_total,300,int
+NLI (T5-11B) strict|mistral-7b,kappa,0.049,float
+NLI (T5-11B) strict|mistral-7b,bias,0.453,float
+NLI (T5-11B) strict|mistral-7b,fp,138,int
+NLI (T5-11B) strict|mistral-7b,fn,2,int
+NLI (T5-11B) strict|mistral-7b,err,140,int
+NLI (T5-11B) strict|mistral-7b,fp_pct,98.6,float
+NLI (T5-11B) strict|mistral-7b,n_valid,300,int
+NLI (T5-11B) strict|mistral-7b,n_total,300,int
+NLI (T5-11B) best-$\tau$|llama3-8b,kappa,0.38,float
+NLI (T5-11B) best-$\tau$|llama3-8b,bias,0.1,float
+NLI (T5-11B) best-$\tau$|llama3-8b,fp,62,int
+NLI (T5-11B) best-$\tau$|llama3-8b,fn,32,int
+NLI (T5-11B) best-$\tau$|llama3-8b,err,94,int
+NLI (T5-11B) best-$\tau$|llama3-8b,fp_pct,66.0,float
+NLI (T5-11B) best-$\tau$|llama3-8b,n_valid,300,int
+NLI (T5-11B) best-$\tau$|llama3-8b,n_total,300,int
+NLI (T5-11B) best-$\tau$|gemma-2-9b,kappa,0.217,float
+NLI (T5-11B) best-$\tau$|gemma-2-9b,bias,0.2,float
+NLI (T5-11B) best-$\tau$|gemma-2-9b,fp,91,int
+NLI (T5-11B) best-$\tau$|gemma-2-9b,fn,31,int
+NLI (T5-11B) best-$\tau$|gemma-2-9b,err,122,int
+NLI (T5-11B) best-$\tau$|gemma-2-9b,fp_pct,74.6,float
+NLI (T5-11B) best-$\tau$|gemma-2-9b,n_valid,300,int
+NLI (T5-11B) best-$\tau$|gemma-2-9b,n_total,300,int
+NLI (T5-11B) best-$\tau$|mistral-7b,kappa,0.395,float
+NLI (T5-11B) best-$\tau$|mistral-7b,bias,-0.077,float
+NLI (T5-11B) best-$\tau$|mistral-7b,fp,34,int
+NLI (T5-11B) best-$\tau$|mistral-7b,fn,57,int
+NLI (T5-11B) best-$\tau$|mistral-7b,err,91,int
+NLI (T5-11B) best-$\tau$|mistral-7b,fp_pct,37.4,float
+NLI (T5-11B) best-$\tau$|mistral-7b,n_valid,300,int
+NLI (T5-11B) best-$\tau$|mistral-7b,n_total,300,int

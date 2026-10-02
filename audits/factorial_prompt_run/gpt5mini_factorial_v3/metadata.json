@@ -1,0 +1,20 @@
+{
+  "run_id": "gpt5mini_factorial_v3",
+  "cell": "B8",
+  "master_path": "data/human_judge_release_master.csv",
+  "judge": {
+    "prefix": "gpt_5_mini",
+    "display": "GPT-5-mini",
+    "model_id": "gpt-5-mini"
+  },
+  "prompt_sha256": {
+    "p1": "53438c6c04f8e821e30c26759bbf9a2b45c687dc517eeabcb60c475e3af1d30c",
+    "p1s": "474d605c3d9a42f59b935e060551a6114e380f5ca0e0e1bad0303e2c3a7737f7",
+    "p2t": "25a90f5b55549b34e55b8316035832b8026346a6fadf91893cee5ed431b8f414",
+    "p2": "cf88add533b4e52df18ac94b16a9d1211af9841e9231543d44362fc7783c44a5"
+  },
+  "settings": {
+    "shuffle_seed": 42,
+    "max_workers": 4
+  }
+}

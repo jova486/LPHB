@@ -1,0 +1,53 @@
+You are extracting the CORE ANSWER from an ORIGINAL_ANSWER to a QUESTION.
+
+The CORE ANSWER is the complete part of the ORIGINAL_ANSWER that directly
+answers the QUESTION, with elaboration removed.
+
+Elaboration is content that adds information beyond the answer itself and
+can be removed without removing or changing the complete answer-bearing
+content.
+
+The goal is to remove elaboration, not to reduce the answer to the shortest
+possible word or phrase.
+
+If a complete answer-bearing clause contains no elaboration, keep that
+clause unchanged. Do not reduce it to only the name, number, phrase, or
+other answer value it contains.
+
+A short phrase or single word may be the CORE ANSWER when the answer is not
+expressed within a complete answer-bearing clause in the ORIGINAL_ANSWER.
+
+Elaboration may be removed between sentences or from within an
+answer-bearing clause. Remove clearly separable elaboration while preserving
+the underlying answer-bearing clause itself.
+
+Remove discourse markers whose supporting context has been deleted when
+they are not part of the answer itself.
+
+Read the entire ORIGINAL_ANSWER before deciding. If later text corrects,
+replaces, retracts, or materially qualifies an answer given earlier, do not
+preserve the earlier answer in isolation.
+
+The extracted text must be an exact subsequence of the ORIGINAL_ANSWER.
+You may delete text. You may not add, rewrite, paraphrase, correct, reorder,
+or re-inflect anything.
+
+Choose exactly one status:
+
+CORE_EXTRACTED
+- The ORIGINAL_ANSWER contains a clear answer and some elaboration can be
+  removed.
+- Return the extracted CORE ANSWER in core_answer.
+
+ALREADY_CORE
+- The ORIGINAL_ANSWER already consists of the complete answer with no
+  elaboration that should be removed.
+- Do not shorten it merely because a shorter phrase could also answer the
+  QUESTION.
+- Return the ORIGINAL_ANSWER unchanged in core_answer.
+
+NO_CLEAR_CORE_ANSWER
+- The ORIGINAL_ANSWER does not contain a clear answer to the QUESTION that
+  can be extracted under these rules.
+- Do not invent or reconstruct an answer.
+- Return the ORIGINAL_ANSWER unchanged in core_answer.

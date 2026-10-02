@@ -1,0 +1,17 @@
+{
+  "run_id": "gpt56_core_extraction_v1",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "shuffle_seed": 42,
+  "prompt_sha256": "2f5ec663974230622e9fd8a39b0c97937ff4d845fdcb578f09c990ebc8e14d97",
+  "eligible_rule": "annotator1_label == 0 AND annotator2_label == 0",
+  "model_visible_fields": [
+    "question",
+    "answer_text"
+  ],
+  "semantic_statuses": [
+    "CORE_EXTRACTED",
+    "ALREADY_CORE",
+    "NO_CLEAR_CORE_ANSWER"
+  ]
+}

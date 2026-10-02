@@ -1,0 +1,2 @@
+key,n_extractions,n_excluded,n_paired,paired_pct,original_fp,core_fp,original_fpr_pct,core_fpr_pct,absolute_reduction_pct,ci_low_pct,ci_high_pct,relative_reduction_pct,n_fp_to_tn,n_tn_to_fp,n_fp_stays_fp,n_tn_stays_tn,mcnemar_p_exact
+elaboration_summary,140,2,138,98.57142857142857,73,32,52.89855072463768,23.18840579710145,29.71014492753623,21.01449275362319,38.405797101449274,56.164383561643824,45,4,28,61,8.225455871979648e-10

@@ -1,0 +1,2 @@
+row_key,column,expected,value_type
+elaboration_summary,mcnemar_p_exact,8.23e-10,float

@@ -1,0 +1,92 @@
+row_key,column,expected,value_type
+ROUGE-L|BERTScore,kappa,0.6,float
+ROUGE-L|NLI (T5-11B) strict,kappa,0.03,float
+ROUGE-L|NLI (T5-11B) best-tau,kappa,0.25,float
+ROUGE-L|GPT-5-mini p1,kappa,0.22,float
+ROUGE-L|GPT-5.4 p1,kappa,0.11,float
+ROUGE-L|Opus 4.7 p1,kappa,0.44,float
+ROUGE-L|GPT-5-mini p2,kappa,0.41,float
+ROUGE-L|GPT-5-mini p3,kappa,0.43,float
+ROUGE-L|GPT-nano p2,kappa,0.38,float
+ROUGE-L|GPT-5.4 p2,kappa,0.37,float
+ROUGE-L|Opus 4.7 p2,kappa,0.4,float
+ROUGE-L|Gemma p2 local,kappa,0.39,float
+ROUGE-L|Qwen p2 local,kappa,0.33,float
+BERTScore|NLI (T5-11B) strict,kappa,0.06,float
+BERTScore|NLI (T5-11B) best-tau,kappa,0.3,float
+BERTScore|GPT-5-mini p1,kappa,0.27,float
+BERTScore|GPT-5.4 p1,kappa,0.15,float
+BERTScore|Opus 4.7 p1,kappa,0.41,float
+BERTScore|GPT-5-mini p2,kappa,0.4,float
+BERTScore|GPT-5-mini p3,kappa,0.42,float
+BERTScore|GPT-nano p2,kappa,0.35,float
+BERTScore|GPT-5.4 p2,kappa,0.41,float
+BERTScore|Opus 4.7 p2,kappa,0.37,float
+BERTScore|Gemma p2 local,kappa,0.34,float
+BERTScore|Qwen p2 local,kappa,0.34,float
+NLI (T5-11B) strict|NLI (T5-11B) best-tau,kappa,0.09,float
+NLI (T5-11B) strict|GPT-5-mini p1,kappa,0.09,float
+NLI (T5-11B) strict|GPT-5.4 p1,kappa,0.07,float
+NLI (T5-11B) strict|Opus 4.7 p1,kappa,0.06,float
+NLI (T5-11B) strict|GPT-5-mini p2,kappa,0.06,float
+NLI (T5-11B) strict|GPT-5-mini p3,kappa,0.06,float
+NLI (T5-11B) strict|GPT-nano p2,kappa,0.04,float
+NLI (T5-11B) strict|GPT-5.4 p2,kappa,0.06,float
+NLI (T5-11B) strict|Opus 4.7 p2,kappa,0.03,float
+NLI (T5-11B) strict|Gemma p2 local,kappa,0.04,float
+NLI (T5-11B) strict|Qwen p2 local,kappa,0.04,float
+NLI (T5-11B) best-tau|GPT-5-mini p1,kappa,0.17,float
+NLI (T5-11B) best-tau|GPT-5.4 p1,kappa,0.03,float
+NLI (T5-11B) best-tau|Opus 4.7 p1,kappa,0.33,float
+NLI (T5-11B) best-tau|GPT-5-mini p2,kappa,0.35,float
+NLI (T5-11B) best-tau|GPT-5-mini p3,kappa,0.36,float
+NLI (T5-11B) best-tau|GPT-nano p2,kappa,0.35,float
+NLI (T5-11B) best-tau|GPT-5.4 p2,kappa,0.32,float
+NLI (T5-11B) best-tau|Opus 4.7 p2,kappa,0.32,float
+NLI (T5-11B) best-tau|Gemma p2 local,kappa,0.34,float
+NLI (T5-11B) best-tau|Qwen p2 local,kappa,0.34,float
+GPT-5-mini p1|GPT-5.4 p1,kappa,0.42,float
+GPT-5-mini p1|Opus 4.7 p1,kappa,0.46,float
+GPT-5-mini p1|GPT-5-mini p2,kappa,0.43,float
+GPT-5-mini p1|GPT-5-mini p3,kappa,0.44,float
+GPT-5-mini p1|GPT-nano p2,kappa,0.4,float
+GPT-5-mini p1|GPT-5.4 p2,kappa,0.47,float
+GPT-5-mini p1|Opus 4.7 p2,kappa,0.42,float
+GPT-5-mini p1|Gemma p2 local,kappa,0.32,float
+GPT-5-mini p1|Qwen p2 local,kappa,0.31,float
+GPT-5.4 p1|Opus 4.7 p1,kappa,0.23,float
+GPT-5.4 p1|GPT-5-mini p2,kappa,0.18,float
+GPT-5.4 p1|GPT-5-mini p3,kappa,0.2,float
+GPT-5.4 p1|GPT-nano p2,kappa,0.19,float
+GPT-5.4 p1|GPT-5.4 p2,kappa,0.21,float
+GPT-5.4 p1|Opus 4.7 p2,kappa,0.19,float
+GPT-5.4 p1|Gemma p2 local,kappa,0.15,float
+GPT-5.4 p1|Qwen p2 local,kappa,0.16,float
+Opus 4.7 p1|GPT-5-mini p2,kappa,0.7,float
+Opus 4.7 p1|GPT-5-mini p3,kappa,0.73,float
+Opus 4.7 p1|GPT-nano p2,kappa,0.7,float
+Opus 4.7 p1|GPT-5.4 p2,kappa,0.71,float
+Opus 4.7 p1|Opus 4.7 p2,kappa,0.78,float
+Opus 4.7 p1|Gemma p2 local,kappa,0.59,float
+Opus 4.7 p1|Qwen p2 local,kappa,0.54,float
+GPT-5-mini p2|GPT-5-mini p3,kappa,0.88,float
+GPT-5-mini p2|GPT-nano p2,kappa,0.76,float
+GPT-5-mini p2|GPT-5.4 p2,kappa,0.84,float
+GPT-5-mini p2|Opus 4.7 p2,kappa,0.76,float
+GPT-5-mini p2|Gemma p2 local,kappa,0.64,float
+GPT-5-mini p2|Qwen p2 local,kappa,0.56,float
+GPT-5-mini p3|GPT-nano p2,kappa,0.74,float
+GPT-5-mini p3|GPT-5.4 p2,kappa,0.82,float
+GPT-5-mini p3|Opus 4.7 p2,kappa,0.76,float
+GPT-5-mini p3|Gemma p2 local,kappa,0.64,float
+GPT-5-mini p3|Qwen p2 local,kappa,0.56,float
+GPT-nano p2|GPT-5.4 p2,kappa,0.72,float
+GPT-nano p2|Opus 4.7 p2,kappa,0.72,float
+GPT-nano p2|Gemma p2 local,kappa,0.66,float
+GPT-nano p2|Qwen p2 local,kappa,0.62,float
+GPT-5.4 p2|Opus 4.7 p2,kappa,0.81,float
+GPT-5.4 p2|Gemma p2 local,kappa,0.61,float
+GPT-5.4 p2|Qwen p2 local,kappa,0.53,float
+Opus 4.7 p2|Gemma p2 local,kappa,0.65,float
+Opus 4.7 p2|Qwen p2 local,kappa,0.54,float
+Gemma p2 local|Qwen p2 local,kappa,0.68,float

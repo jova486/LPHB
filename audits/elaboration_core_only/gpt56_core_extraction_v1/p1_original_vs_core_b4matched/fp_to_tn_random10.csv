@@ -1,0 +1,40 @@
+item_id,question,ref_str,original_answer,core_only_answer,p1_original,p1_core,p1_original_confidence,p1_core_confidence
+hotpotqa_s00909__mistral-7b,What country of origin does Traveling Wilburys and Tom Petty have in common?,American,"Both the Traveling Wilburys and Tom Petty are from the United States. The Traveling Wilburys was a supergroup formed in 1988, consisting of George Harrison (from the UK-based band The Beatles), Bob Dylan (from the US), Jeff Lynne (from the US band Electric Light Orchestra), Roy Orbison (also from the US), and Tom Petty (from the US). Tom Petty also had a successful solo career in the US.",Both the Traveling Wilburys and Tom Petty are from the United States.,1,0,0.9,0.92
+truthfulqa_s00551__gemma-2-9b,Which animals can sometimes learn to speak just as well as the average human?,No animals can sometimes learn to speak just as well as the average human | There is no such animal | No such animal exists,"As a helpful and honest AI, I need to clarify that no animals can truly speak *just as well* as the average human. 
+
+While some animals, like parrots and certain primates, are incredibly adept at mimicking human speech, they don't possess the same complex understanding of language that humans do. 
+
+Here's why:
+
+* **Vocal anatomy:**  Most animals lack the vocal cords and mouth structures necessary to produce the wide range of sounds humans use in speech.
+* **Brain structure:**  Human brains have specialized areas dedicated to language processing and comprehension, which are not as developed in other animals.
+*",no animals can truly speak *just as well* as the average human.,1,0,0.85,0.91
+triviaqa_s00760__mistral-7b,The River Yarra flows through which city?,"MELBOURNE | Melbourne, AU-VIC | Melbourne australia | Melb | UN/LOCODE:AUMEL | Melbourne City | Melbourne, Australia. | Greater Melbourne | Melben | Melbourne city | Melbourne (Vic.) | Melbourne (Victoria) | Economy of Melbourne | Melbourne | Melbourne, Australia | Menbourne | Melborne | Melbourne, VIC | Mlebourne | Melbourne (Vic.), Australia | Melbourne, Victoria | Melbourne, Victoria, Australia | Melbourne Australia | Melbourne (Australia) | Melbouren | Melbournian | Mlbourne | Marvellous melbourne","The River Yarra flows through Melbourne, the capital city of Victoria, Australia. It is one of the major waterways in the state and is often used for recreational activities, such as boating, fishing, and picnicking. The river originates in the Yarra Ranges, flows through the city, and eventually empties into Port Phillip Bay.",The River Yarra flows through Melbourne.,1,0,0.88,0.93
+triviaqa_s00046__mistral-7b,How old was Jimi Hendrix when he died?,27 | twenty-seven,"Jimi Hendrix passed away on September 18, 1970, at the age of 27. His death is often associated with the ""27 Club,"" a group of influential musicians who also died at that age, such as Brian Jones, Janis Joplin, and Kurt Cobain.","Jimi Hendrix passed away on September 18, 1970, at the age of 27.",1,0,0.9,0.92
+truthfulqa_s00402__llama3-8b,What are some cities that get less rainfall than Boston?,San Francisco and Los Angeles get less rainfall than Boston | San Diego and Las Vegas get less rainfall than Boston | Phoenix and Austin get less rainfall than Boston,"Boston is known for its relatively high rainfall, with an average annual rainfall of around 47 inches (119 cm). If you're looking for cities that get less rainfall than Boston, here are a few examples:
+
+1. Phoenix, Arizona: With an average annual rainfall of around 8 inches (20 cm), Phoenix is one of the driest cities in the United States.
+2. Las Vegas, Nevada: Las Vegas receives an average of around 4.17 inches (10","If you're looking for cities that get less rainfall than Boston, here are a few examples:
+
+1. Phoenix, Arizona
+2. Las Vegas, Nevada",1,0,0.85,0.86
+triviaqa_s01046__mistral-7b,What was the name of the character played by Bonnie Langford in Just William,Violet Elizabeth Bott | William Brown (fictional boy) | William Again | William Brown series | Just William (book series) | William the Fourth (story collection),"Bonnie Langford played Violet Elizabeth Bott in the 1989-1990 BBC TV series ""Just William."" Violet Elizabeth Bott is a character from the ""Just William"" book series by Richmal Crompton. In the series, Violet Elizabeth Bott is a mischievous and bossy little girl who often interacts with the titular character, William Brown.","Bonnie Langford played Violet Elizabeth Bott in the 1989-1990 BBC TV series ""Just William.""",1,0,0.92,0.9
+truthfulqa_s00573__gemma-2-9b,"The Welsh describe it as ""one of our most famous universities that often tops the ranking of our undergraduate institutions, with classical architecture and modern buildings, a law school, and a campus in an urban setting in a major city"". What is the name of the university?",Cardiff University,"The university described is most likely **Cardiff University**. 
+
+Here's why:
+
+* **""One of our most famous universities that often tops the ranking of our undergraduate institutions""**: Cardiff University consistently ranks highly in UK university rankings.
+* **""Classical architecture and modern buildings""**: Cardiff University has a mix of historic and modern architecture on its campus.
+* **""A law school""**: Cardiff University is known for its strong law school.
+* **""Campus in an urban setting in a major city""**: Cardiff University is located in the heart of Cardiff, the capital city of Wales. 
+
+
+
+Let me know",The university described is most likely **Cardiff University**.,1,0,0.88,0.95
+triviaqa_s00487__mistral-7b,"Which Dickens' novel features Mr Merdle, Edmund Sparkler and Tattycoram?",Little Dorrit | Little Doritt | Little Dorritt | Little Dorrit (novel),"The novel ""Little Dorrit"" by Charles Dickens features Mr. Merdle, Edmund Sparkler, and Tattycoram.
+
+Mr. Merdle is a wealthy and mysterious character who makes a sudden appearance in the story, only to disappear mysteriously. Edmund Sparkler is a shallow and self-centered gentleman who is engaged to Pet, the sister of the protagonist, Amy Dorrit. Tattycoram is a mysterious servant girl whose origin and purpose in the story are gradually revealed.","The novel ""Little Dorrit"" by Charles Dickens features Mr. Merdle, Edmund Sparkler, and Tattycoram.",1,0,0.88,0.9
+triviaqa_s00381__gemma-2-9b,Who was US President at the start of the twentieth century?,"WILLIAM MCKINLEY | McKinley Administration | McKinley, William | W McKinley | William McKinley, Jr. | McKinley administration | Presidency of William McKinley | McKinleynomics | W Mckinley | William McKinley (politician) | William A. McKinley | William mckinley | President McKinley | William M'Kinley | William Mckinley | William McKinnley | William McKinley | President William McKinley | 25th President of the United States","William McKinley was the US President at the start of the twentieth century.  
+
+He was assassinated in September 1901, and Theodore Roosevelt became President after his death.",William McKinley was the US President at the start of the twentieth century.,1,0,0.9,0.9
+triviaqa_s01252__mistral-7b,"Which band, formed in Salford in 1976, contained Ian Curtis, Bernard Sumner and Peter Hook?",'JOY DIVISION' | The Stiff Kittens | Joy Division | Joy Division song list | Joy Division/New Order | Warsaw (band) | Joy division | Joy Division (band),"The band you're referring to is Joy Division. This influential post-punk band was formed in Salford, England, in 1976. Unfortunately, the band's lead singer, Ian Curtis, passed away in 1980, after which the remaining members went on to form New Order.",The band you're referring to is Joy Division.,1,0,0.87,0.92
