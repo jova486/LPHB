@@ -4,7 +4,7 @@ This repository contains the code and data for reproducing the paper's release a
 
 ## Paper and data
 
-Companion repository for the paper "The Labeling Problem in Hallucination Detection Benchmarks: An Empirical Evaluation" (Jorma Valjakka, Juhani Kivimäki, Juha Mylläri; University of Helsinki). Dataset: https://doi.org/10.7910/DVN/PCHISZ (Harvard Dataverse). An arXiv link will be added here after submission. Tested with Python 3.12.
+Companion repository for the paper "The Labeling Problem in Hallucination Detection Benchmarks: An Empirical Evaluation" (Jorma Valjakka, Juhani Kivimäki, Juha Mylläri, Jukka K. Nurminen; University of Helsinki). Dataset: https://doi.org/10.7910/DVN/PCHISZ (Harvard Dataverse). An arXiv link will be added here after submission. Tested with Python 3.12.
 
 The recommended reproduction path is **Level 1 reproduction**: start from `data/human_judge_release_master.csv`, validate it, and recompute the reported tables, figures, and audit reports. This path requires no API keys, no GPU, and no large model downloads.
 
@@ -176,6 +176,10 @@ figures/
 `results/expected/` holds the paper's hand-transcribed reference numbers. Ordinary Level 1 analysis and verification scripts only read `results/expected/`. The optional `scripts/30_build_expected_from_paper.py` writes the expected-value CSVs. Generated tables and figures appear in `tables/` and `figures/` (both git-ignored).
 
 For column meanings, see `data/human_judge_release_data_dictionary.csv` and `data/README.md`.
+
+## Acknowledgements
+
+This work was partly supported by local authorities ("Business Finland") under grant agreement 23004 ELFMo of the ITEA4 programme, which funded two of the authors.
 
 ## License
 

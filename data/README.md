@@ -1,6 +1,6 @@
 # Human and Automatic Hallucination-Judgment Release Data
 
-Dataset: The Labeling Problem in Hallucination Detection Benchmarks: human-judge release dataset. Authors: Jorma Valjakka, Juhani Kivimäki, Juha Mylläri (University of Helsinki). DOI: https://doi.org/10.7910/DVN/PCHISZ
+Dataset: The Labeling Problem in Hallucination Detection Benchmarks: human-judge release dataset. Authors: Jorma Valjakka, Juhani Kivimäki, Juha Mylläri, Jukka K. Nurminen (University of Helsinki). DOI: https://doi.org/10.7910/DVN/PCHISZ
 
 This directory contains the release-ready data file used for the human-vs-automatic
 hallucination-labeling analyses reported in the paper. The file combines human
@@ -220,6 +220,10 @@ Use `human_judge_release_master.csv` as the authoritative row-aligned source for
 For exact column meanings, always consult `human_judge_release_data_dictionary.csv`.
 Do not modify, regenerate, or reformat `human_judge_release_master.csv`; treat it as
 read-only, per the SHA-256 above.
+
+## Acknowledgements
+
+This work was partly supported by local authorities ("Business Finland") under grant agreement 23004 ELFMo of the ITEA4 programme, which funded two of the authors.
 
 ## License
 
