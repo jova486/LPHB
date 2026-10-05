@@ -8,6 +8,8 @@ Companion repository for the paper "The Labeling Problem in Hallucination Detect
 
 The recommended reproduction path is **Level 1 reproduction**: start from `data/human_judge_release_master.csv`, validate it, and recompute the reported tables, figures, and audit reports. This path requires no API keys, no GPU, and no large model downloads.
 
+**Answer generation.** The answers in `data/human_judge_release_master.csv` (`answer_text`) were generated outside this repository; the generation settings are described in the paper (Appendix on answer generation). The released `answer_text` is the canonical dataset and is not regenerated here.
+
 ## What this repository contains
 
 - `data/`: release data. The main file is `data/human_judge_release_master.csv`, with a column dictionary in `data/human_judge_release_data_dictionary.csv`. Croissant metadata is distributed with the dataset on Harvard Dataverse (https://doi.org/10.7910/DVN/PCHISZ).
