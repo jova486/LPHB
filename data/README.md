@@ -223,7 +223,7 @@ read-only, per the SHA-256 above.
 
 ## Acknowledgements
 
-This work was partly supported by local authorities ("Business Finland") under grant agreement 23004 ELFMo of the ITEA4 programme, which funded two of the authors.
+This work was partly supported by local authorities ("Business Finland") under grant agreement 23004 ELFMo of the ITEA4 programme, which funded three of the authors.
 
 ## License
 
@@ -267,4 +267,4 @@ text output). The judges were: `gemma-2-9b-it`, `Qwen2.5-7B-Instruct` and
 `Meta-Llama-3-8B-Instruct` (run locally), and `gpt-5-mini`, `gpt-5-nano`,
 `gpt-5.4` and `claude-opus-4-7` (via API).
 
-Source-dataset notices and full licence texts: https://github.com/jova486/labeling-problem-hallucination-benchmarks/blob/main/THIRD_PARTY_NOTICES.md
+Source-dataset notices and full licence texts: https://github.com/jova486/LPHB/blob/main/THIRD_PARTY_NOTICES.md

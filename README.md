@@ -179,7 +179,7 @@ For column meanings, see `data/human_judge_release_data_dictionary.csv` and `dat
 
 ## Acknowledgements
 
-This work was partly supported by local authorities ("Business Finland") under grant agreement 23004 ELFMo of the ITEA4 programme, which funded two of the authors.
+This work was partly supported by local authorities ("Business Finland") under grant agreement 23004 ELFMo of the ITEA4 programme, which funded three of the authors.
 
 ## License
 
