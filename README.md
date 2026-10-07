@@ -4,7 +4,9 @@ This repository contains the code and data for reproducing the paper's release a
 
 ## Paper and data
 
-Companion repository for the paper "The Labeling Problem in Hallucination Detection Benchmarks: An Empirical Evaluation" (Jorma Valjakka, Juhani Kivimäki, Juha Mylläri, Jukka K. Nurminen; University of Helsinki). Dataset: https://doi.org/10.7910/DVN/PCHISZ (Harvard Dataverse). An arXiv link will be added here after submission. Tested with Python 3.12.
+Companion repository for the paper "The Labeling Problem in Hallucination Detection Benchmarks: An Empirical Evaluation" (Jorma Valjakka, Juhani Kivimäki, Juha Mylläri, Jukka K. Nurminen; University of Helsinki). Dataset: https://doi.org/10.7910/DVN/PCHISZ (Harvard Dataverse). Tested with Python 3.12.
+
+Preprint: https://arxiv.org/abs/2610.08026
 
 The recommended reproduction path is **Level 1 reproduction**: start from `data/human_judge_release_master.csv`, validate it, and recompute the reported tables, figures, and audit reports. This path requires no API keys, no GPU, and no large model downloads.
 
