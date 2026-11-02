@@ -2,7 +2,7 @@
 
 ## 2.0.0 (2026-11-02)
 
-Correction release, published as Dataverse version 3.0 (a new major version because files were replaced). No existing value was changed.
+Correction release, published as Dataverse versions 3.0 (data files) and 4.0 (updated Croissant metadata). No existing value was changed.
 
 ### Added
 - `data/human_judge_release_master.csv`: columns `truncated`, `answer_tokens` and `max_new_tokens` (now 900 rows x 90 columns). They are derived from the generated token sequences: an answer is truncated when generation stopped at `max_new_tokens` without an end-of-sequence token. 258 of the 900 answers are truncated (TruthfulQA 192/297, HotpotQA 39/303, TriviaQA 27/300).
