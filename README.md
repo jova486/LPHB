@@ -10,7 +10,7 @@ Preprint: https://arxiv.org/abs/2610.08026
 
 The recommended reproduction path is **Level 1 reproduction**: start from `data/human_judge_release_master.csv`, validate it, and recompute the reported tables, figures, and audit reports. This path requires no API keys, no GPU, and no large model downloads.
 
-**Answer generation.** The answers in `data/human_judge_release_master.csv` (`answer_text`) were generated outside this repository; the generation settings are described in the paper (Appendix on answer generation). The released `answer_text` is the canonical dataset and is not regenerated here.
+**Answer generation.** The answers in `data/human_judge_release_master.csv` (`answer_text`) were generated outside this repository; the generation settings are described in the paper (Appendix on answer generation). The released `answer_text` is the canonical dataset and is not regenerated here. Release 2.0.0 adds per-row generation metadata (`truncated`, `answer_tokens`, `max_new_tokens`); see `CHANGELOG.md`.
 
 ## What this repository contains
 

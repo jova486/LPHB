@@ -13,8 +13,8 @@ multiple LLM judges and lexical/NLI/embedding-based baselines.
 
 | File | Purpose |
 | :--- | :--- |
-| `data/human_judge_release_master.csv` | Main release file. 900 rows x 87 columns. |
-| `data/human_judge_release_data_dictionary.csv` | Column-level description file, one row per master column (87 rows). Auto-generated from the release CSV. |
+| `data/human_judge_release_master.csv` | Main release file. 900 rows x 90 columns (release 2.0.0; see `CHANGELOG.md`). |
+| `data/human_judge_release_data_dictionary.csv` | Column-level description file, one row per master column (90 rows). Auto-generated from the release CSV. |
 | `data/README.md` | This file. |
 
 ### Integrity
@@ -22,7 +22,7 @@ multiple LLM judges and lexical/NLI/embedding-based baselines.
 SHA-256 of `human_judge_release_master.csv`:
 
 ```text
-c754d9d66ccc5c53c55fb8c9156135a2ce2f93ce913a1bff0652d6647d27dc0a
+a3fcf79004152afe92c552754484a10455d9fd73960e7cfca14013059293a86f
 ```
 
 Recompute with `sha256sum data/human_judge_release_master.csv` and compare before use;
@@ -43,9 +43,9 @@ total, drawn from three source datasets (`hotpotqa`, `triviaqa`, `truthfulqa`).
 
 ---
 
-## Column Groups (10 + 21 + 50 + 6 = 87)
+## Column Groups (10 + 21 + 50 + 6 + 3 = 90)
 
-The 87 columns fall into four groups. Column descriptions below follow the accompanying data dictionary, with additional release-specific clarifications.
+The 90 columns fall into five groups. Column descriptions below follow the accompanying data dictionary, with additional release-specific clarifications.
 
 ### 1. Core / metadata columns (10)
 
@@ -186,6 +186,20 @@ The derived columns of the `bertscore_f1` family use the prefix
 | `nli_label_best` | Identical to `nli_label_best_tau` on every row. |
 | `nli_tau_strict` | Strict NLI threshold, fixed at 0.5 for all rows. |
 | `nli_tau_best` | Oracle NLI threshold, selected per generator to maximise agreement with annotator1_label. |
+
+### 5. Generation metadata (3)
+
+Added in release 2.0.0. These columns are derived from the generated token sequences, not from `answer_text`.
+
+| Column | Description |
+| :--- | :--- |
+| `truncated` | `True` if generation stopped at `max_new_tokens` without an end-of-sequence token, i.e. the released answer is cut off; `False` if the model ended the answer itself. |
+| `answer_tokens` | Number of generated answer tokens, excluding the end-of-sequence token, in the generator's own tokenizer. |
+| `max_new_tokens` | Generation length limit of the row's generator: 96 for `llama3-8b`, 128 for `gemma-2-9b` and `mistral-7b`. |
+
+**Truncated answers.** 258 of the 900 answers (28.7%) reached the generation length limit without an end-of-sequence token, most of them in TruthfulQA (192 of 297; HotpotQA 39 of 303; TriviaQA 27 of 300). They were annotated and judged as released, i.e. in truncated form, and all labels refer to the released text. Agreement between automated and human labels is markedly lower on truncated answers (see the companion paper's appendix on truncated answers); analyses that should not depend on truncation can stratify or filter on `truncated`.
+
+**Text normalisation.** In 11 answers, a leading or trailing double quotation mark present in the generated output was removed during release preparation (item IDs in `CHANGELOG.md`). All labels refer to the released text.
 
 ---
 

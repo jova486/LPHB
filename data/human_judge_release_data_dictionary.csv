@@ -86,3 +86,6 @@ bartscore_h2r_tau_cv_max,"Largest of the three per-fold BARTScore hyp->ref thres
 bartscore_h2r_cv_fold,"Cross-validation fold assignment for BARTScore hyp->ref (0, 1 or 2). Determines which fold the row was held out from."
 bartscore_h2r_cv_kappa_mean_fold,"Mean per-fold Cohen's kappa for BARTScore hyp->ref against annotator1_label, constant within a generator."
 bartscore_h2r_cv_kappa_oof,"Out-of-fold Cohen's kappa for BARTScore hyp->ref against annotator1_label, constant within a generator."
+truncated,"True if generation stopped at max_new_tokens without an end-of-sequence token, i.e. the released answer is cut off; False if the model ended the answer itself. Derived from the generated token sequence (added in release 2.0.0)."
+answer_tokens,"Number of generated answer tokens, excluding the end-of-sequence token, in the generator's own tokenizer (added in release 2.0.0)."
+max_new_tokens,"Generation length limit for the row's generator: 96 for llama3-8b, 128 for gemma-2-9b and mistral-7b (added in release 2.0.0)."
